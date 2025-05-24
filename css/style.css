@@ -281,6 +281,24 @@ h1,h2,h3,h4,h5,h6 {
   
 }
 
+
+/* Navbar */
+.nav-link {
+    transition: all 0.3s ease;
+    color: #212529;
+    font-weight: 500;
+  }
+
+  .nav-link:hover {
+    color: #6BB252; 
+  }
+
+  .nav-item.active .nav-link {
+    color: #ec9b22;
+    font-weight: 700;
+  }
+
+
 /* Swiper carousel */
 .swiper-prev,
 .swiper-next {
