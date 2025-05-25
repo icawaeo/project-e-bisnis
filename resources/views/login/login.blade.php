@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('styles')
-    <link rel="stylesheet" href="{{ asset('login/login.css') }}">
+<link rel="stylesheet" href="{{ asset('login/login.css') }}">
 @endsection
 
 @section('content')
@@ -24,14 +24,15 @@
                     <p class="login-subtitle">e-Kantin UNSRAT</p>
                 </div>
 
-                <form>
+                <form method="POST" action="{{ url('/auth/login') }}">
+                    @csrf
                     <div class="mb-3">
                         <label for="email" class="form-label">EMAIL</label>
                         <div class="input-group">
                             <span class="input-group-text">
                                 <i class="fas fa-envelope"></i>
                             </span>
-                            <input type="email" class="form-control custom-input" id="email" placeholder="Email address" required>
+                            <input type="email" class="form-control custom-input" id="email" placeholder="Email address" name="email" required>
                         </div>
                     </div>
 
@@ -41,7 +42,7 @@
                             <span class="input-group-text">
                                 <i class="fas fa-lock"></i>
                             </span>
-                            <input type="password" class="form-control custom-input" id="password" placeholder="Password" required>
+                            <input type="password" class="form-control custom-input" id="password" placeholder="Password" name="password" required>
                             <button class="btn btn-outline-secondary" type="button" id="togglePassword">
                                 <i class="fas fa-eye"></i>
                             </button>
@@ -66,6 +67,17 @@
                         <p class="mb-0">Don't have an account? <a href="{{ url('/auth/register') }}" class="signup-link">Sign up</a></p>
                     </div>
                 </form>
+                @if ($errors->any())
+                <div class="alert alert-danger">
+                    {{ $errors->first() }}
+                </div>
+                @endif
+                @if (session('success'))
+                <div class="alert alert-success">
+                    {{ session('success') }}
+                </div>
+                @endif
+
             </div>
         </div>
     </div>
