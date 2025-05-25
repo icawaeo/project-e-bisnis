@@ -5,112 +5,88 @@
    @endsection
    
    @section('content')
-   <!-- Header -->
-   <div class="header-container">
-       <div class="container-fluid">
-           <div class="header-content">
-               <button class="btn-back" onclick="goBack()">
-                   <i class="fas fa-arrow-left"></i>
-               </button>
-               <h1 class="header-title">Order Item</h1>
-               <button class="btn-share" onclick="shareOrder()">
-                   <i class="fas fa-share-alt me-2"></i>
-                   Share
-               </button>
-           </div>
-       </div>
-   </div>
+   <div class="container-fluid">
+        <!-- Header -->
+        <div class="header">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-auto">
+                        <button class="btn btn-link text-dark p-0">
+                            <i class="bi bi-arrow-left fs-4"></i>
+                        </button>
+                    </div>
+                    <div class="col text-center">
+                        <h5 class="mb-0 fw-semibold">Order Item</h5>
+                    </div>
+                    <div class="col-auto">
+                        <button class="btn share-btn">
+                            <i class="bi bi-share me-1"></i>
+                            Share
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-   <!-- Main Content -->
-   <div class="main-container">
-       <div class="container">
-           <div class="row justify-content-center">
-               <div class="col-12 col-lg-8 col-xl-6">
+        <!-- Main Content -->
+        <div class="container mt-4">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-8">
+                    <div class="card order-card">
+                        <div class="card-body p-0">
+                            <!-- Order Number Section -->
+                            <div class="order-section border-bottom">
+                                <div class="section-title">ORDER NUMBER</div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="order-number">171044015790933138</div>
+                                    <button class="btn copy-btn">
+                                        <i class="bi bi-clipboard"></i>
+                                    </button>
+                                </div>
+                            </div>
 
-                   <!-- Combined Order Card -->
-                   <div class="order-card">
-                       <!-- Order Number Section -->
-                       <div class="order-number-section">
-                           <span class="section-label">ORDER NUMBER</span>
-                           <div class="order-number-display">
-                               <span class="order-number" id="orderNumber">171044015790933138</span>
-                               <button class="btn-copy" onclick="copyOrderNumber()" title="Copy order number">
-                                   <i class="fas fa-copy"></i>
-                               </button>
-                           </div>
-                       </div>
+                            <!-- Order Progress Section -->
+                            <div class="order-section">
+                                <div class="section-title">ORDER PROGRESS</div>
+                                
+                                <div class="progress-container">
+                                    <div class="progress-line"></div>
+                                    <div class="progress-line-active"></div>
+                                    
+                                    <!-- Step 1: Dalam Proses -->
+                                    <div class="progress-step">
+                                        <div class="progress-icon">
+                                            <i class="bi bi-clock"></i>
+                                        </div>
+                                        <div class="progress-title">Dalam Proses</div>
+                                        <div class="progress-subtitle">Order is being prepared</div>
+                                    </div>
+                                    
+                                    <!-- Step 2: Siap Diambil -->
+                                    <div class="progress-step">
+                                        <div class="progress-icon">
+                                            <i class="bi bi-bell"></i>
+                                        </div>
+                                        <div class="progress-title">Siap Diambil</div>
+                                        <div class="progress-subtitle">Ready for pickup</div>
+                                    </div>
+                                    
+                                    <!-- Step 3: Makanan Sudah Diambil -->
+                                    <div class="progress-step">
+                                        <div class="progress-icon inactive">
+                                            <i class="bi bi-check-lg"></i>
+                                        </div>
+                                        <div class="progress-title">Makanan Sudah Diambil</div>
+                                        <div class="progress-subtitle">Order has been picked up</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                       <!-- Divider -->
-                       <div class="section-divider"></div>
-
-                       <!-- Progress Section -->
-                       <div class="progress-section">
-                           <span class="section-label">ORDER PROGRESS</span>
-                           <div class="progress-tracker">
-
-                               <!-- Step 1 -->
-                               <div class="progress-step completed">
-                                   <div class="step-circle">
-                                       <i class="fas fa-clock"></i>
-                                   </div>
-                                   <div class="step-content">
-                                       <h6 class="step-title">Dalam Proses</h6>
-                                       <p class="step-description">Order is being prepared</p>
-                                   </div>
-                               </div>
-
-                               <!-- Connector Line 1 -->
-                               <div class="progress-connector completed"></div>
-
-                               <!-- Step 2 -->
-                               <div class="progress-step completed">
-                                   <div class="step-circle">
-                                       <i class="fas fa-bell"></i>
-                                   </div>
-                                   <div class="step-content">
-                                       <h6 class="step-title">Siap Diambil</h6>
-                                       <p class="step-description">Ready for pickup</p>
-                                   </div>
-                               </div>
-
-                               <!-- Connector Line 2 -->
-                               <div class="progress-connector completed"></div>
-
-                               <!-- Step 3 -->
-                               <div class="progress-step completed">
-                                   <div class="step-circle">
-                                       <i class="fas fa-check"></i>
-                                   </div>
-                                   <div class="step-content">
-                                       <h6 class="step-title">Makanan Sudah Diambil</h6>
-                                       <p class="step-description">Order has been picked up</p>
-                                   </div>
-                               </div>
-
-                           </div>
-                       </div>
-                   </div>
-
-               </div>
-           </div>
-       </div>
-   </div>
-
-   <!-- Success Toast -->
-   <div class="toast-container position-fixed bottom-0 end-0 p-3">
-       <div id="successToast" class="toast custom-toast" role="alert" aria-live="assertive" aria-atomic="true">
-           <div class="toast-header">
-               <div class="toast-icon">
-                   <i class="fas fa-check-circle"></i>
-               </div>
-               <strong class="me-auto">Success</strong>
-               <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
-           </div>
-           <div class="toast-body">
-               Order number copied to clipboard!
-           </div>
-       </div>
-   </div>
-
-   <script src="{{ asset('status/status.js') }}"></script>
+    <script src="{{ asset('status/status.js') }}" ></script>
    @endsection
