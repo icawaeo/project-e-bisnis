@@ -11,9 +11,9 @@ Route::get('/auth/login', function () {
     return view('login.login');
 });
 
-Route::get('/register', [AuthController::class, 'showRegisterForm']);
+Route::get('/auth/register', [AuthController::class, 'showRegisterForm']);
 
-Route::post('/register', [AuthController::class, 'register']);
+Route::post('/auth/register', [AuthController::class, 'register']);
 
 Route::get('/page/status', function () {
     return view('status.status');

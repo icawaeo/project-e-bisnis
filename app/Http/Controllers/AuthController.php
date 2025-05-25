@@ -19,7 +19,7 @@ class AuthController extends Controller
             'name'     => 'required|string|max:255',
             'nim'      => 'required|numeric|digits_between:8,12|unique:users,nim',
             'email'    => 'required|email|unique:users,email',
-            'password' => 'required|string|min:8|confirmed',
+            'password' => 'required|string|min:8',
         ]);
 
         User::create([
@@ -29,6 +29,6 @@ class AuthController extends Controller
             'password' => Hash::make($validated['password']),
         ]);
 
-        return redirect('/login')->with('success', 'Account created successfully!');
+        return redirect('/auth/login')->with('success', 'Account created successfully!');
     }
 }
