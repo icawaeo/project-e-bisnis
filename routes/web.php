@@ -36,6 +36,10 @@ Route::get('/page/halamanMakanan', function () {
     return view('halamanMakanan.halamanMakanan');
 });
 
+Route::get('/page/sellerDashboard', function () {
+    return view('sellerDashboard.sellerDashboard');
+});
+
 Route::get('/admin/dashboard', [AdminController::class, 'showAdminDashboard'])->name('admin.dashboard');
 Route::get('/admin/dashboard', [AdminController::class, 'index'])->name('admin.users');
 
