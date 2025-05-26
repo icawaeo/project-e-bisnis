@@ -4,6 +4,14 @@
 <link rel="stylesheet" href="{{ asset('login/login.css') }}">
 @endsection
 
+@section('scripts')
+<script src="{{ asset('login/login.js') }}"></script>
+@endsection
+
+@section('title')
+Login | e-Kantin UNSRAT
+@endsection
+
 @section('content')
 <!-- Header -->
 <nav class="navbar navbar-expand-lg custom-header">
@@ -90,6 +98,4 @@
     <div class="floating-shape shape-3"></div>
     <div class="floating-shape shape-4"></div>
 </div>
-
-<script src="{{ asset('login/login.js') }}"></script>
 @endsection

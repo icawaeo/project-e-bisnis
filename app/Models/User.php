@@ -44,4 +44,8 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+    public function scopeOnlyUsers($query)
+    {
+        return $query->where('role', 'mahasiswa');
+    }
 }

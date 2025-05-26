@@ -4,6 +4,14 @@
 <link rel="stylesheet" href="{{ asset('register/register.css') }}">
 @endsection
 
+@section('scripts')
+<script src="{{ asset('register/register.js') }}"></script>
+@endsection
+
+@section('title')
+Register | e-Kantin UNSRAT
+@endsection
+
 @section('content')
 <!-- Header -->
 <nav class="navbar navbar-expand-lg custom-header">
@@ -120,6 +128,4 @@
     <div class="floating-shape shape-4"></div>
     <div class="floating-shape shape-5"></div>
 </div>
-
-<script src="{{ asset('register/register.js') }}"></script>
 @endsection

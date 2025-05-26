@@ -33,7 +33,7 @@ class AuthController extends Controller
         return redirect('/auth/login')->with('success', 'Account created successfully!');
     }
 
-        public function showLoginForm()
+    public function showLoginForm()
     {
         return view('login.login');
     }
@@ -49,8 +49,22 @@ class AuthController extends Controller
 
         if (Auth::attempt($credentials, $remember)) {
             $request->session()->regenerate();
-            return redirect()->intended('/');
+
+            $user = Auth::user();
+
+            // Redirect berdasarkan role
+            switch ($user->role) {
+                case 'admin':
+                    return redirect()->route('admin.dashboard'); // pastikan route ini ada
+                case 'mahasiswa':
+                    return redirect()->route('mahasiswa.dashboard');  // pastikan route ini ada
+                case 'seller':
+                    return redirect()->route('seller.dashboard'); // jika ada role lain
+                default:
+                    return redirect('/'); // fallback
+            }
         }
+
 
         return back()->withErrors([
             'email' => 'Email atau password salah.',

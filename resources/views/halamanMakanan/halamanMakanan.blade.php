@@ -4,6 +4,14 @@
 <link rel="stylesheet" href="{{ asset('halamanMakanan/Hlmakanan.css') }}">
 @endsection
 
+@section('scripts')
+<script src="{{ asset('halamanMakanan/HLmakan.js') }}"></script>
+@endsection
+
+@section('title')
+Daftar Menu Makanan | e-Kantin UNSRAT
+@endsection
+
 @section("content")
 <div class="demo-container">
     <div class="header">
@@ -137,7 +145,4 @@
         </div>
     </div>
 </div>
-
-<script src="{{ asset('halamanMakanan/HLmakan.js') }}"></script>
-
 @endsection

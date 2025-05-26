@@ -5,6 +5,17 @@
 <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
 @endsection
 
+@section('scripts')
+<script src="{{ asset('js/jquery-1.11.0.min.js') }}"></script>
+<script src="{{ asset('js/plugins.js') }}"></script>
+<script src="{{ asset('js/script.js') }}"></script>
+<script src="{{ asset('js/button.js') }}"></script>
+@endsection
+
+@section('title')
+E-kantin UNSRAT
+@endsection
+
 @section('content')
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
   <defs>
@@ -2100,9 +2111,4 @@
     <path fill-rule="evenodd" d="M8 12a.5.5 0 0 1-.5-.5V3.707L4.354 7.854a.5.5 0 1 1-.708-.708l4.5-4.5a.5.5 0 0 1 .708 0l4.5 4.5a.5.5 0 0 1-.708.708L8.5 3.707V11.5A.5.5 0 0 1 8 12z" />
   </svg>
 </button>
-
-<script src="{{ asset('js/jquery-1.11.0.min.js') }}"></script>
-<script src="{{ asset('js/plugins.js') }}"></script>
-<script src="{{ asset('js/script.js') }}"></script>
-<script src="{{ asset('js/button.js') }}"></script>
 @endsection

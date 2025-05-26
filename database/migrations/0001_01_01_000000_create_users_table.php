@@ -15,8 +15,9 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('email')->unique();
-            $table->string('nim')->unique();
+            $table->string('nim')->nullable()->unique(); // NIM: unique but nullable for admins
             $table->string('password');
+            $table->string('role')->default('mahasiswa'); // Default role is 'user'
             $table->rememberToken();
             $table->timestamps();
         });
