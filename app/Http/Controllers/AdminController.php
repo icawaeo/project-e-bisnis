@@ -23,7 +23,7 @@ class AdminController extends Controller
 
     public function index()
     {
-        $mahasiswa = User::onlyUsers()->get();
+        $users = User::onlyUsers()->get();
 
         return view('adminDashboard.adminDashboard', compact('users'));
     }
