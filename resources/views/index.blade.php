@@ -361,8 +361,8 @@
             <use xlink:href="#shopping-bag"></use>
           </svg>
         </a>
-        <a href="/masuk" class="btn btn-primary text-uppercase px-4 py-2 fs-6">Masuk</a>
-        <a href="{{ url('auth/register') }}" class="btn btn-dark text-uppercase px-4 py-2 fs-6">Daftar</a>
+        <a href="{{ url('/auth/login') }}" class="btn btn-primary text-uppercase px-4 py-2 fs-6">Masuk</a>
+        <a href="{{ url('/auth/register') }}" class="btn btn-dark text-uppercase px-4 py-2 fs-6">Daftar</a>
       </div>
 
     </div>
@@ -378,7 +378,7 @@
         <p class="fs-4">Pesan sekarang, ambil tanpa antre!</p>
         <div class="d-flex gap-3">
           <a href="#" class="btn btn-primary text-uppercase fs-6 rounded-pill px-4 py-3 mt-3">Pesan Sekarang</a>
-          <a href="#" class="btn btn-dark text-uppercase fs-6 rounded-pill px-4 py-3 mt-3">Daftar</a>
+          <a href="{{ url('/auth/register') }}" class="btn btn-dark text-uppercase fs-6 rounded-pill px-4 py-3 mt-3">Daftar</a>
         </div>
         <div class="row my-5">
           <div class="col">
