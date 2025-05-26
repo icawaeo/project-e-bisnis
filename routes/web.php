@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\SellerController;
+use App\Http\Controllers\UserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -40,23 +42,14 @@ Route::get('/page/sellerDashboard', function () {
     return view('sellerDashboard.sellerDashboard');
 });
 
-Route::get('/admin/dashboard', [AdminController::class, 'showAdminDashboard'])->name('admin.dashboard');
-Route::get('/admin/dashboard', [AdminController::class, 'index'])->name('admin.users');
+Route::get('/page/pembayaran', function () {
+    return view('pembayaran.pembayaran');
+});
 
 
+Route::get('/admin/dashboard', [AdminController::class, 'showAdminDashboard']);
+Route::get('/admin/dashboard', [AdminController::class, 'index']);
 
-Route::get('/page/404', function () {
-    return view('errors.404');
-});
-Route::get('/page/500', function () {
-    return view('errors.500');
-});
-Route::get('/page/503', function () {
-    return view('errors.503');
-});
-Route::get('/page/403', function () {
-    return view('errors.403');
-});
-Route::get('/page/401', function () {
-    return view('errors.401');
-});
+Route::get('/seller/dashboard', [SellerController::class, 'showSellerDashboard']);
+Route::get('/user/dashboard', [UserController::class, 'showUserDashboard']);
+

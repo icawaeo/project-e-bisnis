@@ -16,7 +16,7 @@ Login | e-Kantin UNSRAT
 <!-- Header -->
 <nav class="navbar navbar-expand-lg custom-header">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="{{ url('/auth/login') }}">
             <i class="fas fa-home text-dark fs-4"></i>
         </a>
     </div>

@@ -367,13 +367,11 @@ E-kantin UNSRAT
       </div>
 
       <div class="col-auto d-flex align-items-center gap-3">
-        <a href="{{ url('/auth/login') }}" class="p-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvasCart" aria-controls="offcanvasCart">
+        <a href="#" class="p-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvasCart" aria-controls="offcanvasCart">
           <svg width="24" height="24">
             <use xlink:href="#shopping-bag"></use>
           </svg>
         </a>
-        <a href="{{ url('/auth/login') }}" class="btn btn-primary text-uppercase px-4 py-2 fs-6">Masuk</a>
-        <a href="{{ url('/auth/register') }}" class="btn btn-dark text-uppercase px-4 py-2 fs-6">Daftar</a>
       </div>
 
     </div>
@@ -388,7 +386,7 @@ E-kantin UNSRAT
         <h2 class="display-1 ls-1">Makan <span class="fw-bold text-primary">Enak</span> dan <span class="fw-bold text-primary">Praktis</span> di <span class="fw-bold">eKanteen UNSRAT</span></h2>
         <p class="fs-4">Pesan sekarang, ambil tanpa antre!</p>
         <div class="d-flex gap-3">
-          <a href="{{ url('/auth/login') }}" class="btn btn-primary text-uppercase fs-6 rounded-pill px-4 py-3 mt-3">Pesan Sekarang</a>
+          <a href="#" class="btn btn-primary text-uppercase fs-6 rounded-pill px-4 py-3 mt-3">Pesan Sekarang</a>
           <a href="{{ url('/auth/register') }}" class="btn btn-dark text-uppercase fs-6 rounded-pill px-4 py-3 mt-3">Daftar</a>
         </div>
         <div class="row my-5">
@@ -494,7 +492,7 @@ E-kantin UNSRAT
           <h2 class="section-title">Kategori</h2>
 
           <!-- <div class="d-flex align-items-center">
-                <a href="{{ url('/auth/login') }}" class="btn btn-primary me-2">View All</a>
+                <a href="#" class="btn btn-primary me-2">View All</a>
                 <div class="swiper-buttons">
                   <button class="swiper-prev category-carousel-prev btn btn-yellow">❮</button>
                   <button class="swiper-next category-carousel-next btn btn-yellow">❯</button>
@@ -587,10 +585,10 @@ E-kantin UNSRAT
                 <div class="button-area p-3 pt-0">
                   <div class="row g-1 mt-2 justify-content-center">
                     <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
-                    <div class="col-auto"><a href="{{ url('/auth/login') }}" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18">
+                    <div class="col-auto"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18">
                           <use xlink:href="#cart"></use>
                         </svg>Masukkan Keranjang</a></div>
-                    <!-- <div class="col-2"><a href="{{ url('/auth/login') }}" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div> -->
+                    <!-- <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div> -->
                   </div>
                 </div>
               </div>
@@ -624,10 +622,10 @@ E-kantin UNSRAT
                 <div class="button-area p-3 pt-0">
                   <div class="row g-1 mt-2 justify-content-center">
                     <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
-                    <div class="col-auto"><a href="{{ url('/auth/login') }}" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18">
+                    <div class="col-auto"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18">
                           <use xlink:href="#cart"></use>
                         </svg>Masukkan Keranjang</a></div>
-                    <!-- <div class="col-2"><a href="{{ url('/auth/login') }}" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div> -->
+                    <!-- <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div> -->
                   </div>
                 </div>
               </div>
@@ -661,10 +659,10 @@ E-kantin UNSRAT
                 <div class="button-area p-3 pt-0">
                   <div class="row g-1 mt-2 justify-content-center">
                     <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
-                    <div class="col-auto"><a href="{{ url('/auth/login') }}" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18">
+                    <div class="col-auto"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18">
                           <use xlink:href="#cart"></use>
                         </svg>Masukkan Keranjang</a></div>
-                    <!-- <div class="col-2"><a href="{{ url('/auth/login') }}" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div> -->
+                    <!-- <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div> -->
                   </div>
                 </div>
               </div>
@@ -698,10 +696,10 @@ E-kantin UNSRAT
                 <div class="button-area p-3 pt-0">
                   <div class="row g-1 mt-2 justify-content-center">
                     <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
-                    <div class="col-auto"><a href="{{ url('/auth/login') }}" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18">
+                    <div class="col-auto"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18">
                           <use xlink:href="#cart"></use>
                         </svg>Masukkan Keranjang</a></div>
-                    <!-- <div class="col-2"><a href="{{ url('/auth/login') }}" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div> -->
+                    <!-- <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div> -->
                   </div>
                 </div>
               </div>
@@ -735,10 +733,10 @@ E-kantin UNSRAT
                 <div class="button-area p-3 pt-0">
                   <div class="row g-1 mt-2 justify-content-center">
                     <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
-                    <div class="col-auto"><a href="{{ url('/auth/login') }}" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18">
+                    <div class="col-auto"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18">
                           <use xlink:href="#cart"></use>
                         </svg>Masukkan Keranjang</a></div>
-                    <!-- <div class="col-2"><a href="{{ url('/auth/login') }}" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div> -->
+                    <!-- <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div> -->
                   </div>
                 </div>
               </div>
@@ -772,10 +770,10 @@ E-kantin UNSRAT
                 <div class="button-area p-3 pt-0">
                   <div class="row g-1 mt-2 justify-content-center">
                     <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
-                    <div class="col-auto"><a href="{{ url('/auth/login') }}" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18">
+                    <div class="col-auto"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18">
                           <use xlink:href="#cart"></use>
                         </svg>Masukkan Keranjang</a></div>
-                    <!-- <div class="col-2"><a href="{{ url('/auth/login') }}" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div> -->
+                    <!-- <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div> -->
                   </div>
                 </div>
               </div>
@@ -809,10 +807,10 @@ E-kantin UNSRAT
                 <div class="button-area p-3 pt-0">
                   <div class="row g-1 mt-2 justify-content-center">
                     <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
-                    <div class="col-auto"><a href="{{ url('/auth/login') }}" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18">
+                    <div class="col-auto"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18">
                           <use xlink:href="#cart"></use>
                         </svg>Masukkan Keranjang</a></div>
-                    <!-- <div class="col-2"><a href="{{ url('/auth/login') }}" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div> -->
+                    <!-- <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div> -->
                   </div>
                 </div>
               </div>
@@ -846,10 +844,10 @@ E-kantin UNSRAT
                 <div class="button-area p-3 pt-0">
                   <div class="row g-1 mt-2 justify-content-center">
                     <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
-                    <div class="col-auto"><a href="{{ url('/auth/login') }}" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18">
+                    <div class="col-auto"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18">
                           <use xlink:href="#cart"></use>
                         </svg>Masukkan Keranjang</a></div>
-                    <!-- <div class="col-2"><a href="{{ url('/auth/login') }}" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div> -->
+                    <!-- <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div> -->
                   </div>
                 </div>
               </div>
@@ -875,7 +873,7 @@ E-kantin UNSRAT
                   <div class="content-wrapper text-light">
                     <h3 class="banner-title text-light">Items on SALE</h3>
                     <p>Discounts up to 30%</p>
-                    <a href="{{ url('/auth/login') }}" class="btn-link text-white">Shop Now</a>
+                    <a href="#" class="btn-link text-white">Shop Now</a>
                   </div>
                 </div>
               </div>
@@ -885,7 +883,7 @@ E-kantin UNSRAT
                   <div class="content-wrapper text-light">
                     <h3 class="banner-title text-light">Combo offers</h3>
                     <p>Discounts up to 50%</p>
-                    <a href="{{ url('/auth/login') }}" class="btn-link text-white">Shop Now</a>
+                    <a href="#" class="btn-link text-white">Shop Now</a>
                   </div>
                 </div>
               </div>
@@ -895,7 +893,7 @@ E-kantin UNSRAT
                   <div class="content-wrapper text-light">
                     <h3 class="banner-title text-light">Discount Coupons</h3>
                     <p>Discounts up to 40%</p>
-                    <a href="{{ url('/auth/login') }}" class="btn-link text-white">Shop Now</a>
+                    <a href="#" class="btn-link text-white">Shop Now</a>
                   </div>
                 </div>
               </div>
@@ -967,7 +965,7 @@ E-kantin UNSRAT
                         <a href="{{ url('/page/halamanMakanan') }}" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart">Lihat Menu</a>
                       </div>
                     </div>
-                    <!-- <div class="col-2"><a href="{{ url('/auth/login') }}" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div> -->
+                    <!-- <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div> -->
                   </div>
                 </div>
               </div>
@@ -1006,7 +1004,7 @@ E-kantin UNSRAT
                         <a href="{{ url('/page/halamanMakanan') }}" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart">Lihat Menu</a>
                       </div>
                     </div>
-                    <!-- <div class="col-2"><a href="{{ url('/auth/login') }}" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div> -->
+                    <!-- <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div> -->
                   </div>
                 </div>
               </div>
@@ -1045,7 +1043,7 @@ E-kantin UNSRAT
                         <a href="{{ url('/page/halamanMakanan') }}" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart">Lihat Menu</a>
                       </div>
                     </div>
-                    <!-- <div class="col-2"><a href="{{ url('/auth/login') }}" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div> -->
+                    <!-- <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div> -->
                   </div>
                 </div>
               </div>
@@ -1084,7 +1082,7 @@ E-kantin UNSRAT
                         <a href="{{ url('/page/halamanMakanan') }}" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart">Lihat Menu</a>
                       </div>
                     </div>
-                    <!-- <div class="col-2"><a href="{{ url('/auth/login') }}" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div> -->
+                    <!-- <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div> -->
                   </div>
                 </div>
               </div>
@@ -1123,7 +1121,7 @@ E-kantin UNSRAT
                         <a href="{{ url('/page/halamanMakanan') }}" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart">Lihat Menu</a>
                       </div>
                     </div>
-                    <!-- <div class="col-2"><a href="{{ url('/auth/login') }}" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div> -->
+                    <!-- <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div> -->
                   </div>
                 </div>
               </div>
@@ -1186,7 +1184,7 @@ E-kantin UNSRAT
               <h2 class="section-title">Most popular products</h2>
 
               <div class="d-flex align-items-center">
-                <a href="{{ url('/auth/login') }}" class="btn btn-primary me-2">View All</a>
+                <a href="#" class="btn btn-primary me-2">View All</a>
                 <div class="swiper-buttons">
                   <button class="swiper-prev products-carousel-prev btn btn-primary">❮</button>
                   <button class="swiper-next products-carousel-next btn btn-primary">❯</button>
@@ -1228,8 +1226,8 @@ E-kantin UNSRAT
                     <div class="button-area p-3 pt-0">
                       <div class="row g-1 mt-2">
                         <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
-                        <div class="col-7"><a href="{{ url('/auth/login') }}" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
-                        <div class="col-2"><a href="{{ url('/auth/login') }}" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
+                        <div class="col-7"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
+                        <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
                       </div>
                     </div>
                   </div>
@@ -1261,8 +1259,8 @@ E-kantin UNSRAT
                     <div class="button-area p-3 pt-0">
                       <div class="row g-1 mt-2">
                         <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
-                        <div class="col-7"><a href="{{ url('/auth/login') }}" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
-                        <div class="col-2"><a href="{{ url('/auth/login') }}" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
+                        <div class="col-7"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
+                        <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
                       </div>
                     </div>
                   </div>
@@ -1294,8 +1292,8 @@ E-kantin UNSRAT
                     <div class="button-area p-3 pt-0">
                       <div class="row g-1 mt-2">
                         <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
-                        <div class="col-7"><a href="{{ url('/auth/login') }}" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
-                        <div class="col-2"><a href="{{ url('/auth/login') }}" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
+                        <div class="col-7"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
+                        <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
                       </div>
                     </div>
                   </div>
@@ -1327,8 +1325,8 @@ E-kantin UNSRAT
                     <div class="button-area p-3 pt-0">
                       <div class="row g-1 mt-2">
                         <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
-                        <div class="col-7"><a href="{{ url('/auth/login') }}" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
-                        <div class="col-2"><a href="{{ url('/auth/login') }}" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
+                        <div class="col-7"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
+                        <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
                       </div>
                     </div>
                   </div>
@@ -1360,8 +1358,8 @@ E-kantin UNSRAT
                     <div class="button-area p-3 pt-0">
                       <div class="row g-1 mt-2">
                         <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
-                        <div class="col-7"><a href="{{ url('/auth/login') }}" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
-                        <div class="col-2"><a href="{{ url('/auth/login') }}" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
+                        <div class="col-7"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
+                        <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
                       </div>
                     </div>
                   </div>
@@ -1393,8 +1391,8 @@ E-kantin UNSRAT
                     <div class="button-area p-3 pt-0">
                       <div class="row g-1 mt-2">
                         <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
-                        <div class="col-7"><a href="{{ url('/auth/login') }}" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
-                        <div class="col-2"><a href="{{ url('/auth/login') }}" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
+                        <div class="col-7"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
+                        <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
                       </div>
                     </div>
                   </div>
@@ -1426,8 +1424,8 @@ E-kantin UNSRAT
                     <div class="button-area p-3 pt-0">
                       <div class="row g-1 mt-2">
                         <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
-                        <div class="col-7"><a href="{{ url('/auth/login') }}" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
-                        <div class="col-2"><a href="{{ url('/auth/login') }}" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
+                        <div class="col-7"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
+                        <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
                       </div>
                     </div>
                   </div>
@@ -1459,8 +1457,8 @@ E-kantin UNSRAT
                     <div class="button-area p-3 pt-0">
                       <div class="row g-1 mt-2">
                         <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
-                        <div class="col-7"><a href="{{ url('/auth/login') }}" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
-                        <div class="col-2"><a href="{{ url('/auth/login') }}" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
+                        <div class="col-7"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
+                        <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
                       </div>
                     </div>
                   </div>
@@ -1492,8 +1490,8 @@ E-kantin UNSRAT
                     <div class="button-area p-3 pt-0">
                       <div class="row g-1 mt-2">
                         <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
-                        <div class="col-7"><a href="{{ url('/auth/login') }}" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
-                        <div class="col-2"><a href="{{ url('/auth/login') }}" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
+                        <div class="col-7"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
+                        <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
                       </div>
                     </div>
                   </div>
@@ -1519,7 +1517,7 @@ E-kantin UNSRAT
               <h2 class="section-title">Just arrived</h2>
 
               <div class="d-flex align-items-center">
-                <a href="{{ url('/auth/login') }}" class="btn btn-primary me-2">View All</a>
+                <a href="#" class="btn btn-primary me-2">View All</a>
                 <div class="swiper-buttons">
                   <button class="swiper-prev products-carousel-prev btn btn-primary">❮</button>
                   <button class="swiper-next products-carousel-next btn btn-primary">❯</button>
@@ -1561,8 +1559,8 @@ E-kantin UNSRAT
                     <div class="button-area p-3 pt-0">
                       <div class="row g-1 mt-2">
                         <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
-                        <div class="col-7"><a href="{{ url('/auth/login') }}" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
-                        <div class="col-2"><a href="{{ url('/auth/login') }}" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
+                        <div class="col-7"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
+                        <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
                       </div>
                     </div>
                   </div>
@@ -1594,8 +1592,8 @@ E-kantin UNSRAT
                     <div class="button-area p-3 pt-0">
                       <div class="row g-1 mt-2">
                         <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
-                        <div class="col-7"><a href="{{ url('/auth/login') }}" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
-                        <div class="col-2"><a href="{{ url('/auth/login') }}" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
+                        <div class="col-7"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
+                        <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
                       </div>
                     </div>
                   </div>
@@ -1627,8 +1625,8 @@ E-kantin UNSRAT
                     <div class="button-area p-3 pt-0">
                       <div class="row g-1 mt-2">
                         <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
-                        <div class="col-7"><a href="{{ url('/auth/login') }}" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
-                        <div class="col-2"><a href="{{ url('/auth/login') }}" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
+                        <div class="col-7"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
+                        <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
                       </div>
                     </div>
                   </div>
@@ -1660,8 +1658,8 @@ E-kantin UNSRAT
                     <div class="button-area p-3 pt-0">
                       <div class="row g-1 mt-2">
                         <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
-                        <div class="col-7"><a href="{{ url('/auth/login') }}" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
-                        <div class="col-2"><a href="{{ url('/auth/login') }}" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
+                        <div class="col-7"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
+                        <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
                       </div>
                     </div>
                   </div>
@@ -1693,8 +1691,8 @@ E-kantin UNSRAT
                     <div class="button-area p-3 pt-0">
                       <div class="row g-1 mt-2">
                         <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
-                        <div class="col-7"><a href="{{ url('/auth/login') }}" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
-                        <div class="col-2"><a href="{{ url('/auth/login') }}" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
+                        <div class="col-7"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
+                        <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
                       </div>
                     </div>
                   </div>
@@ -1726,8 +1724,8 @@ E-kantin UNSRAT
                     <div class="button-area p-3 pt-0">
                       <div class="row g-1 mt-2">
                         <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
-                        <div class="col-7"><a href="{{ url('/auth/login') }}" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
-                        <div class="col-2"><a href="{{ url('/auth/login') }}" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
+                        <div class="col-7"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
+                        <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
                       </div>
                     </div>
                   </div>
@@ -1759,8 +1757,8 @@ E-kantin UNSRAT
                     <div class="button-area p-3 pt-0">
                       <div class="row g-1 mt-2">
                         <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
-                        <div class="col-7"><a href="{{ url('/auth/login') }}" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
-                        <div class="col-2"><a href="{{ url('/auth/login') }}" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
+                        <div class="col-7"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
+                        <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
                       </div>
                     </div>
                   </div>
@@ -1792,8 +1790,8 @@ E-kantin UNSRAT
                     <div class="button-area p-3 pt-0">
                       <div class="row g-1 mt-2">
                         <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
-                        <div class="col-7"><a href="{{ url('/auth/login') }}" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
-                        <div class="col-2"><a href="{{ url('/auth/login') }}" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
+                        <div class="col-7"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
+                        <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
                       </div>
                     </div>
                   </div>
@@ -1825,8 +1823,8 @@ E-kantin UNSRAT
                     <div class="button-area p-3 pt-0">
                       <div class="row g-1 mt-2">
                         <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
-                        <div class="col-7"><a href="{{ url('/auth/login') }}" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
-                        <div class="col-2"><a href="{{ url('/auth/login') }}" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
+                        <div class="col-7"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
+                        <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
                       </div>
                     </div>
                   </div>
@@ -1846,14 +1844,14 @@ E-kantin UNSRAT
         <div class="row">
           <div class="section-header d-flex align-items-center justify-content-between my-4">
             <h2 class="section-title">Our Recent Blog</h2>
-            <a href="{{ url('/auth/login') }}" class="btn btn-primary">View All</a>
+            <a href="#" class="btn btn-primary">View All</a>
           </div>
         </div>
         <div class="row">
           <div class="col-md-4">
             <article class="post-item card border-0 shadow-sm p-3">
               <div class="image-holder zoom-effect">
-                <a href="{{ url('/auth/login') }}">
+                <a href="#">
                   <img src="{{ asset('images/post-thumbnail-1.jpg') }}" alt="post" class="card-img-top">
                 </a>
               </div>
@@ -1864,7 +1862,7 @@ E-kantin UNSRAT
                 </div>
                 <div class="post-header">
                   <h3 class="post-title">
-                    <a href="{{ url('/auth/login') }}" class="text-decoration-none">Top 10 casual look ideas to dress up your kids</a>
+                    <a href="#" class="text-decoration-none">Top 10 casual look ideas to dress up your kids</a>
                   </h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipi elit. Aliquet eleifend viverra enim tincidunt donec quam. A in arcu, hendrerit neque dolor morbi...</p>
                 </div>
@@ -1874,7 +1872,7 @@ E-kantin UNSRAT
           <div class="col-md-4">
             <article class="post-item card border-0 shadow-sm p-3">
               <div class="image-holder zoom-effect">
-                <a href="{{ url('/auth/login') }}">
+                <a href="#">
                   <img src="{{ asset('images/post-thumbnail-2.jpg') }}" alt="post" class="card-img-top">
                 </a>
               </div>
@@ -1885,7 +1883,7 @@ E-kantin UNSRAT
                 </div>
                 <div class="post-header">
                   <h3 class="post-title">
-                    <a href="{{ url('/auth/login') }}" class="text-decoration-none">Latest trends of wearing street wears supremely</a>
+                    <a href="#" class="text-decoration-none">Latest trends of wearing street wears supremely</a>
                   </h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipi elit. Aliquet eleifend viverra enim tincidunt donec quam. A in arcu, hendrerit neque dolor morbi...</p>
                 </div>
@@ -1895,7 +1893,7 @@ E-kantin UNSRAT
           <div class="col-md-4">
             <article class="post-item card border-0 shadow-sm p-3">
               <div class="image-holder zoom-effect">
-                <a href="{{ url('/auth/login') }}">
+                <a href="#">
                   <img src="{{ asset('images/post-thumbnail-3.jpg') }}" alt="post" class="card-img-top">
                 </a>
               </div>
@@ -1906,7 +1904,7 @@ E-kantin UNSRAT
                 </div>
                 <div class="post-header">
                   <h3 class="post-title">
-                    <a href="{{ url('/auth/login') }}" class="text-decoration-none">10 Different Types of comfortable clothes ideas for women</a>
+                    <a href="#" class="text-decoration-none">10 Different Types of comfortable clothes ideas for women</a>
                   </h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipi elit. Aliquet eleifend viverra enim tincidunt donec quam. A in arcu, hendrerit neque dolor morbi...</p>
                 </div>
@@ -1927,7 +1925,7 @@ E-kantin UNSRAT
             <h2 class="mt-5">Pesan makanan sekarang di eKanteen UNSRAT</h2>
             <p>Makan enak, praktis, tanpa antri!</p>
             <div class="d-flex gap-2 flex-wrap mb-5">
-              <a href="{{ url('/auth/login') }}" class="btn btn-primary text-uppercase fs-6 rounded-pill px-4 py-3 mt-3">Pesan Sekarang</a>
+              <a href="#" class="btn btn-primary text-uppercase fs-6 rounded-pill px-4 py-3 mt-3">Pesan Sekarang</a>
             </div>
           </div>
           <div class="col-md-5">
@@ -1943,24 +1941,24 @@ E-kantin UNSRAT
 <!-- <section class="py-4">
       <div class="container-lg">
         <h2 class="my-4">People are also looking for</h2>
-        <a href="{{ url('/auth/login') }}" class="btn btn-warning me-2 mb-2">Blue diamon almonds</a>
-        <a href="{{ url('/auth/login') }}" class="btn btn-warning me-2 mb-2">Angie’s Boomchickapop Corn</a>
-        <a href="{{ url('/auth/login') }}" class="btn btn-warning me-2 mb-2">Salty kettle Corn</a>
-        <a href="{{ url('/auth/login') }}" class="btn btn-warning me-2 mb-2">Chobani Greek Yogurt</a>
-        <a href="{{ url('/auth/login') }}" class="btn btn-warning me-2 mb-2">Sweet Vanilla Yogurt</a>
-        <a href="{{ url('/auth/login') }}" class="btn btn-warning me-2 mb-2">Foster Farms Takeout Crispy wings</a>
-        <a href="{{ url('/auth/login') }}" class="btn btn-warning me-2 mb-2">Warrior Blend Organic</a>
-        <a href="{{ url('/auth/login') }}" class="btn btn-warning me-2 mb-2">Chao Cheese Creamy</a>
-        <a href="{{ url('/auth/login') }}" class="btn btn-warning me-2 mb-2">Chicken meatballs</a>
-        <a href="{{ url('/auth/login') }}" class="btn btn-warning me-2 mb-2">Blue diamon almonds</a>
-        <a href="{{ url('/auth/login') }}" class="btn btn-warning me-2 mb-2">Angie’s Boomchickapop Corn</a>
-        <a href="{{ url('/auth/login') }}" class="btn btn-warning me-2 mb-2">Salty kettle Corn</a>
-        <a href="{{ url('/auth/login') }}" class="btn btn-warning me-2 mb-2">Chobani Greek Yogurt</a>
-        <a href="{{ url('/auth/login') }}" class="btn btn-warning me-2 mb-2">Sweet Vanilla Yogurt</a>
-        <a href="{{ url('/auth/login') }}" class="btn btn-warning me-2 mb-2">Foster Farms Takeout Crispy wings</a>
-        <a href="{{ url('/auth/login') }}" class="btn btn-warning me-2 mb-2">Warrior Blend Organic</a>
-        <a href="{{ url('/auth/login') }}" class="btn btn-warning me-2 mb-2">Chao Cheese Creamy</a>
-        <a href="{{ url('/auth/login') }}" class="btn btn-warning me-2 mb-2">Chicken meatballs</a>
+        <a href="#" class="btn btn-warning me-2 mb-2">Blue diamon almonds</a>
+        <a href="#" class="btn btn-warning me-2 mb-2">Angie’s Boomchickapop Corn</a>
+        <a href="#" class="btn btn-warning me-2 mb-2">Salty kettle Corn</a>
+        <a href="#" class="btn btn-warning me-2 mb-2">Chobani Greek Yogurt</a>
+        <a href="#" class="btn btn-warning me-2 mb-2">Sweet Vanilla Yogurt</a>
+        <a href="#" class="btn btn-warning me-2 mb-2">Foster Farms Takeout Crispy wings</a>
+        <a href="#" class="btn btn-warning me-2 mb-2">Warrior Blend Organic</a>
+        <a href="#" class="btn btn-warning me-2 mb-2">Chao Cheese Creamy</a>
+        <a href="#" class="btn btn-warning me-2 mb-2">Chicken meatballs</a>
+        <a href="#" class="btn btn-warning me-2 mb-2">Blue diamon almonds</a>
+        <a href="#" class="btn btn-warning me-2 mb-2">Angie’s Boomchickapop Corn</a>
+        <a href="#" class="btn btn-warning me-2 mb-2">Salty kettle Corn</a>
+        <a href="#" class="btn btn-warning me-2 mb-2">Chobani Greek Yogurt</a>
+        <a href="#" class="btn btn-warning me-2 mb-2">Sweet Vanilla Yogurt</a>
+        <a href="#" class="btn btn-warning me-2 mb-2">Foster Farms Takeout Crispy wings</a>
+        <a href="#" class="btn btn-warning me-2 mb-2">Warrior Blend Organic</a>
+        <a href="#" class="btn btn-warning me-2 mb-2">Chao Cheese Creamy</a>
+        <a href="#" class="btn btn-warning me-2 mb-2">Chicken meatballs</a>
       </div>
     </section> -->
 
@@ -2051,10 +2049,10 @@ E-kantin UNSRAT
           <img src="{{ asset('images/logo-ekanteen.png') }}" alt="logo" class="mx-auto d-block" style="max-width: 250px; height: auto;">
           <div class="social-links mt-3">
             <ul class="d-flex justify-content-center list-unstyled gap-2">
-              <li><a href="{{ url('/auth/login') }}" class="btn btn-outline-light"><svg width="16" height="16">
+              <li><a href="#" class="btn btn-outline-light"><svg width="16" height="16">
                     <use xlink:href="#facebook"></use>
                   </svg></a></li>
-              <li><a href="{{ url('/auth/login') }}" class="btn btn-outline-light"><svg width="16" height="16">
+              <li><a href="#" class="btn btn-outline-light"><svg width="16" height="16">
                     <use xlink:href="#instagram"></use>
                   </svg></a></li>
             </ul>
@@ -2066,11 +2064,11 @@ E-kantin UNSRAT
         <div class="footer-menu">
           <h5 class="widget-title">Quick Links</h5>
           <ul class="menu-list list-unstyled">
-            <li><a href="{{ url('/auth/login') }}" class="nav-link">Beranda</a></li>
-            <li><a href="{{ url('/auth/login') }}" class="nav-link">Menu Terlaris</a></li>
-            <li><a href="{{ url('/auth/login') }}" class="nav-link">Mitra Terfavorit</a></li>
-            <li><a href="{{ url('/auth/login') }}" class="nav-link">Pesanan Saya</a></li>
-            <li><a href="{{ url('/auth/login') }}" class="nav-link">Tentang Pengembang</a></li>
+            <li><a href="#" class="nav-link">Beranda</a></li>
+            <li><a href="#" class="nav-link">Menu Terlaris</a></li>
+            <li><a href="#" class="nav-link">Mitra Terfavorit</a></li>
+            <li><a href="#" class="nav-link">Pesanan Saya</a></li>
+            <li><a href="#" class="nav-link">Tentang Pengembang</a></li>
           </ul>
         </div>
       </div>

@@ -25,20 +25,20 @@
         <nav class="sidebar-nav">
             <ul class="nav flex-column">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#" data-tab="dashboard">
+                    <a class="nav-link active" href="{{ url('/auth/login') }}" data-tab="dashboard">
                         <i class="fas fa-chart-line"></i>
                         Dashboard
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" data-tab="orders">
+                    <a class="nav-link" href="{{ url('/auth/login') }}" data-tab="orders">
                         <i class="fas fa-shopping-bag"></i>
                         Orders
                         <span class="badge bg-danger ms-auto">5</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" data-tab="menu">
+                    <a class="nav-link" href="{{ url('/auth/login') }}" data-tab="menu">
                         <i class="fas fa-utensils"></i>
                         Menu Management
                     </a>
@@ -131,7 +131,7 @@
                                     <h5 class="card-title mb-0">Recent Orders</h5>
                                     <small class="text-muted">Latest incoming orders</small>
                                 </div>
-                                <a href="#" class="btn btn-sm btn-outline-primary" data-tab-link="orders">View All</a>
+                                <a href="{{ url('/auth/login') }}" class="btn btn-sm btn-outline-primary" data-tab-link="orders">View All</a>
                             </div>
                             <div class="card-body">
                                 <div class="order-card new-order">

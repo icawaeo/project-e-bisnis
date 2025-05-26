@@ -22,31 +22,31 @@ eKanteen Admin Dashboard
         <nav class="sidebar-nav">
             <ul class="nav flex-column">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#" data-tab="overview">
+                    <a class="nav-link active" href="{{ url('/auth/login') }}" data-tab="overview">
                         <i class="fas fa-chart-bar"></i>
                         Overview
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" data-tab="users">
+                    <a class="nav-link" href="{{ url('/auth/login') }}" data-tab="users">
                         <i class="fas fa-users"></i>
                         User Management
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" data-tab="sellers">
+                    <a class="nav-link" href="{{ url('/auth/login') }}" data-tab="sellers">
                         <i class="fas fa-store"></i>
                         Seller Management
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" data-tab="transactions">
+                    <a class="nav-link" href="{{ url('/auth/login') }}" data-tab="transactions">
                         <i class="fas fa-credit-card"></i>
                         Transactions
                     </a>
                 </li>
                 <!-- <li class="nav-item">
-                    <a class="nav-link" href="#" data-tab="settings">
+                    <a class="nav-link" href="{{ url('/auth/login') }}" data-tab="settings">
                         <i class="fas fa-cog"></i>
                         Settings
                     </a>
@@ -453,9 +453,9 @@ eKanteen Admin Dashboard
                                                         <i class="fas fa-edit"></i>
                                                     </button>
                                                     <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="#">Mark as Completed</a></li>
-                                                        <li><a class="dropdown-item" href="#">Mark as Failed</a></li>
-                                                        <li><a class="dropdown-item" href="#">Refund</a></li>
+                                                        <li><a class="dropdown-item" href="{{ url('/auth/login') }}">Mark as Completed</a></li>
+                                                        <li><a class="dropdown-item" href="{{ url('/auth/login') }}">Mark as Failed</a></li>
+                                                        <li><a class="dropdown-item" href="{{ url('/auth/login') }}">Refund</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -479,9 +479,9 @@ eKanteen Admin Dashboard
                                                         <i class="fas fa-edit"></i>
                                                     </button>
                                                     <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="#">Mark as Completed</a></li>
-                                                        <li><a class="dropdown-item" href="#">Mark as Failed</a></li>
-                                                        <li><a class="dropdown-item" href="#">Refund</a></li>
+                                                        <li><a class="dropdown-item" href="{{ url('/auth/login') }}">Mark as Completed</a></li>
+                                                        <li><a class="dropdown-item" href="{{ url('/auth/login') }}">Mark as Failed</a></li>
+                                                        <li><a class="dropdown-item" href="{{ url('/auth/login') }}">Refund</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -505,9 +505,9 @@ eKanteen Admin Dashboard
                                                         <i class="fas fa-edit"></i>
                                                     </button>
                                                     <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="#">Mark as Completed</a></li>
-                                                        <li><a class="dropdown-item" href="#">Mark as Failed</a></li>
-                                                        <li><a class="dropdown-item" href="#">Refund</a></li>
+                                                        <li><a class="dropdown-item" href="{{ url('/auth/login') }}">Mark as Completed</a></li>
+                                                        <li><a class="dropdown-item" href="{{ url('/auth/login') }}">Mark as Failed</a></li>
+                                                        <li><a class="dropdown-item" href="{{ url('/auth/login') }}">Refund</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -531,9 +531,9 @@ eKanteen Admin Dashboard
                                                         <i class="fas fa-edit"></i>
                                                     </button>
                                                     <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="#">Mark as Completed</a></li>
-                                                        <li><a class="dropdown-item" href="#">Mark as Failed</a></li>
-                                                        <li><a class="dropdown-item" href="#">Refund</a></li>
+                                                        <li><a class="dropdown-item" href="{{ url('/auth/login') }}">Mark as Completed</a></li>
+                                                        <li><a class="dropdown-item" href="{{ url('/auth/login') }}">Mark as Failed</a></li>
+                                                        <li><a class="dropdown-item" href="{{ url('/auth/login') }}">Refund</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
